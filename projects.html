@@ -2,65 +2,115 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Portfolio</title>
 </head>
 
 <body class="bg-dark bg-opacity-75">
-    <!-- navigation bar -->
-    <header class="d-flex justify-content-center">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Blogs & Projecten
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
-                                <li><a class="dropdown-item" href="projects.html">Projecten</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12"></div>
-            </div>
+  <!-- navigation bar -->
+  <header class="d-flex justify-content-center">
+    <nav class="navbar navbar-expand-lg bg-black bg-opacity-50">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blogs & Projecten
+              </a>
+              <ul class="dropdown-menu bg-black bg-opacity-50">
+                <li><a class="dropdown-item text-white" href="blogs.html">Blogs</a></li>
+                <li><a class="dropdown-item text-white" href="projects.html">Projecten</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-    </main>
-    <!-- copyright mark -->
-    <footer class="d-flex justify-content-center">
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="card bg-primary bg-opacity-50 col-md-4">
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card" style="width: 88rem; height: 20;">
             <div class="card-body">
-                &copy;Noah Driessen
-                <i class="bi bi-check2-circle text-success text-opacity-100"></i>
+              <h5 class="card-title d-flex justify-content-center">Projecten</h5>
+              <div class="row">
+                <!-- Higher lower -->
+                <div class="col-md-6">
+                  <div class="card" style="width: 40rem;">
+                    <img src="img/Hoger-Lager.jpg" class="card-img-top" alt="higher-lower-image">
+                    <div class="card-body">
+                      <h5 class="card-title">Hoger Lager</h5>
+                      <p class="card-text">Toen ik ging beginnen aan het project Hoger-Lager hat ik nog geen flauw idee
+                        waar ik aan begon. Dus ging ik onderzoek doen naar meerdere versies van Hoger-Lager en kwam ik
+                        achter de mogelijkheden. Daardoor raakte ik geïnspireerd om Hoger-Lager te gaan maken en kreeg
+                        ik dus ideeën. Ver volgens begon ik met het programmeren van het Hoger-Lager spel met behulp van
+                        YouTube en is het gelukt om het Hoger-Lager spel te creëren.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Escape room -->
+                <div class="col-md-6">
+                  <div class="card" style="width: 40rem;">
+                    <img src="img/Escaperoom.jpg" class="card-img-top" alt="escaperoom-image">
+                    <div class="card-body">
+                      <h5 class="card-title">Escape room</h5>
+                      <p class="card-text">Tijdens de thema week op school kregen we (ik en mijn klasgenoten) te horen
+                        dat we die week een escape room gingen maken ver volgens gingen wij online onderzoek doen naar
+                        verschillende online escaperooms. Dit gebeurde terwijl de docenten de teams aan het samen
+                        stellen waren. Toen de teams bekent werden gemaakt gingen wei bedenken hoe we onze escaperoom
+                        wilden inrichten een thema verzinnen, titel bedenken en verhaallijn schrijven. Daar na gingen
+                        wij de taken verdelen zo deed één het schrijven van de verhaallijn en de styling in CSS (CSS
+                        geeft vorming aan bij voorbeeld een website of te wel het uiterlijk bij voor beeld animaties).
+                        De ander deed javascript en de notities maken van welke over wat individueel doet in een word
+                        document. Zo deed iemand het maken van de grafische tekening hoe het eruit eindelijk ongeveer
+                        uit komt te zien. En ik deed zelf de HTML (HTML is de basis waar teksten bijvoorbeeld morden
+                        geschreven of de gebruiker een tekst kan schrijven op de website) zijde van de escaperoom.</p>
+                      <p class="card-text">Daarnaast hebben wij gezamenlijk besproken dat wij ieder zelf onze eigen room
+                        gingen bouwen omdat wei zelf onze eigen room het beste zelf konden maken omdat we besproken
+                        hebben dat we zelf he beste zelf weten hoe we het willen hebben dit kon omdat we een thema
+                        hadden gekozen dat we ieder een anderen genre kan gaan gebruiken zoals fantasie en Jeressic park
+                        dit vonden wij een goed idee om het te kunnen fuseren dus hebben wei van meerdere dimensies als
+                        hooft thema gekozen. Uit eindelijk vond ik het maken van de escaperoom toch leuker dan dat ik in
+                        eerste instantie had verwacht omdat ik eigenlijk escaperooms niet zo interessant vind.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="blogs.html" class="btn btn-info btn-opacity-75">Kijk hier voor mijn Blogs</a>
             </div>
+          </div>
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </main>
+  <!-- copyright mark -->
+  <footer class="d-flex justify-content-center">
+    <div class="col-md-2"></div>
+    <div class="col-md-2"></div>
+    <div class="card bg-primary bg-opacity-50 col-md-4">
+      <div class="card-body">
+        &copy;Noah Driessen
+        <i class="bi bi-check2-circle text-success text-opacity-100"></i>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-2"></div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
