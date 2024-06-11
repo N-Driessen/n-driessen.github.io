@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- navigation bar -->
   <header class="d-flex justify-content-center">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -20,16 +21,16 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Blogs & Projecten
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="">Blogs</a></li>
-                <li><a class="dropdown-item" href="">Projecten</a></li>
+                <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                <li><a class="dropdown-item" href="projects.html">Projecten</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -39,23 +40,24 @@
   <main>
     <div class="container">
       <div class="row">
+        <!-- Persenal information, educations and Hobbies -->
         <div class="col-md-12">
           <div class="card mb-4" style="max-width: 1240px;">
             <div class="row g-12">
               <div class="col-md-6">
-                <img src="img/profielfoto noah.jpg" class="img-fluid border rounded" alt="...">
+                <img src="img/profielfoto noah.jpg" class="img-fluid border rounded" alt="noah-portfolio-image">
               </div>
               <div class="col-md-6">
                 <div class="card-body">
-                  <div>
-                    <h5 class="card-title">Persoonlijke info</h5>
+                  <div class="col-md-10">
+                    <h5 class="card-title">Persoonlijke</h5>
                     <ul class="list-group">
                       <li class="list-group-item">Ik ben Noah Driessen</li>
                       <li class="list-group-item">Ik ben 24 Jaar oud</li>
                       <li class="list-group-item">Ik woon in Voorburg</li>
                     </ul>
                   </div>
-                  <div>
+                  <div class="col-md-10">
                     <h5 class="card-title">Opleidingen</h5>
                     <ul class="list-group">
                       <li class="list-group-item">Medewerker Fastservice (Niveau 2)</li>
@@ -63,13 +65,13 @@
                       <li class="list-group-item">Software Developer (Niveau 4)</li>
                     </ul>
                   </div>
-                  <div>
+                  <div class="col-md-10">
                     <h5 class="card-title">Hobby’s</h5>
                     <ul class="list-group">
                       <li class="list-group-item">Zwemmen</li>
                       <li class="list-group-item">Gamen</li>
                       <li class="list-group-item">Coderen</li>
-                      <li class="list-group-item">Aan Pc’s sleutelen / pc’s bouwen</li>
+                      <li class="list-group-item">Aan Pc’ssleutelen / pc’s bouwen</li>
                       <li class="list-group-item">Series kijken op streaming diensten</li>
                     </ul>
                   </div>
@@ -78,17 +80,43 @@
             </div>
           </div>
         </div>
+        <!-- about me -->
+        <div class="col-md-12">
+          <div class="card d-flex justify-content-center align-items-center" style="width: 77.5rem; height: 30rem;">
+            <div class="card-body bg-secondary bg-opacity-25">
+              <h5 class="card-title d-flex justify-content-center">Over mij</h5>
+              <p class="card-text">Goeden dag mijn naam is noah driessen ik ben 24 jaar oud en ik woon in het dorp
+                Voorburg. In Voorburg woon ik vlak bij het winkelcentrum de Julianabaan. Ik woon nu nog bij mijn ouders
+                maar hoop in de nabije toekomst hier verandering in kunnen brengen. In het jaar 2018 ben ik afgestudeerd
+                bij de opleiding Medewerker Fastservice op de koningin Maria laan in den haag aan het ROC Mondriaan als
+                horecamedewerker. Deze opleiding vond ik erg leuk om te doen maar heb daarna ervoor gekozen om een
+                andere richting in te slaan. Deze richting vond ik al leuk voordat ik ontdekte dat ik de horeca leuk
+                vond om in te werken. Dit is de ICT voor ik mij destijds aanmeldde bij de horecaopleiding had ik me al
+                aangemeld bij de ict opleiding op niveau 2 maar werd helaas afgewezen. Na de horecaopleiding had ik
+                besloten me zelf weer aan te melden bij de ICT-opleiding en dit was gelukt ik was aangenomen bij de
+                opleiding ICT Medewerker Beheer op niveau 3. Deze opleiding duurde 3 jaar en heb ik afgerond in het jaar
+                van 2021. Tot op de dag van vandaag ben ik nog graag bezig in de ict werld en heb ik in 2023 besloten om
+                de opleiding Software Developer te gaan volgen om naast netwerkbeheer ook te leren programmeren om in
+                bijde gebieden te kunnen gaan werken. Daarnaast doe ik graag in mijn vrije tijd aan zwemmen en gamen kW
+                hobby's.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
+  <!-- copyright mark -->
   <footer class="d-flex justify-content-center">
-    <div class="card">
+    <div class="col-md-2"></div>
+    <div class="col-md-2"></div>
+    <div class="card bg-primary bg-opacity-50 col-md-4">
       <div class="card-body">
         &copy;Noah Driessen
         <i class="bi bi-check2-circle text-success text-opacity-100"></i>
       </div>
     </div>
-
+    <div class="col-md-2"></div>
+    <div class="col-md-2"></div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
